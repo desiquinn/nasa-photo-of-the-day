@@ -1,10 +1,12 @@
 import React from "react";
+import { Button } from 'semantic-ui-react';
+import styled from 'styled-components';
 
-const Button = () => {
+const PrevButton = () => {
 
     return(
-        <button>Previous</button>
+        <Button basic color='violet' content='Previous'/>
     )
 }
 
-export default Button;
+export default PrevButton;

@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "./components/Button"
+import PrevButton from "./components/Button"
+import { Header } from 'semantic-ui-react'
 
 import Data from "./data"
 
@@ -11,14 +12,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>
+      <Header as='h1' color='violet'>
         NASA Photo of The Day
-      </h1>
+      </Header>
       <div>
         <Data />
       </div>
       <div>
-        <Button />
+        <PrevButton />
       </div>
     </div>
   );
