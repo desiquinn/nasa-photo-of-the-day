@@ -4,12 +4,7 @@ import React from "react";
 const PhotoCard = (props) => {
 
     console.log(props)
-    console.log(props.passData)
-    
-    const DisplayLoading = () => {
-    // Display a loading message while the data is fetching
-    if (!props.photoOfTheDay) return <h3>Loading...</h3>;
-    };
+    console.log(props.date)
     
     // Display your component as normal after the data has been fetched
     return(

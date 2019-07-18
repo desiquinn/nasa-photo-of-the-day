@@ -4,7 +4,7 @@ import axios from "axios";
 import PhotoCard from "./components/PhotoCard"
 
 
-function Data({limit}) {
+function Data() {
 
     const [photoData, setPhotoData ] = useState({});
     console.log(photoData);

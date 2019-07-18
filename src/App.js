@@ -1,6 +1,4 @@
 import React from "react";
-
-import PhotoCard from "./components/PhotoCard"
 import Button from "./components/Button"
 
 import Data from "./data"
@@ -17,12 +15,11 @@ function App() {
         NASA Photo of The Day
       </h1>
       <div>
-        <PhotoCard />
+        <Data />
       </div>
       <div>
         <Button />
       </div>
-      <Data />
     </div>
   );
 }
