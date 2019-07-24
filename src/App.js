@@ -1,13 +1,26 @@
 import React from "react";
+import PrevButton from "./components/Button"
+import { Header } from 'semantic-ui-react'
+
+import Data from "./data"
+
 import "./App.css";
 
-function App() {
+
+function App() {  
+
+
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <Header as='h1' color='violet'>
+        NASA Photo of The Day
+      </Header>
+      <div>
+        <Data />
+      </div>
+      <div>
+        <PrevButton />
+      </div>
     </div>
   );
 }
